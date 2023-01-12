@@ -13,8 +13,6 @@
  */
 ?>
 
-<!-- This file should primarily consist of HTML with a little bit of PHP. -->
-
 <?php 
 if(is_page("smart-cart-orders-endpoint") && strpos( $_SERVER['HTTP_USER_AGENT'] , 'Skroutz') !== false){
 	
